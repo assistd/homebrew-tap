@@ -7,8 +7,5 @@ class Assistd < Formula
 
   def install
     bin.install "assistd"
-    bin.install "project.yaml"
-    bin.install Dir["config"]
-    bin.install Dir["resources"]
   end
 end
